@@ -1,0 +1,43 @@
+body {
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.main {
+
+	background: url('../images/bg.jpeg') center center;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+
+.main .headline {
+
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 46px;
+	text-align: center;
+}
+.main .call-to-action {
+
+	text-align: center;
+	padding-top: 15px;
+}
+
+.main .subtitulo {
+
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.main .navbar-default {
+
+	background-color: rgba(0,0,0,0);
+	border-color: transparent;
+}
+
+.main .navbar-brand img {
+	width: 130px;
+}
