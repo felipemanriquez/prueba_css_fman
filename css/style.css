@@ -4,40 +4,46 @@ body {
 
 }
 
-.main {
+.header {
 
-	background: url('../images/bg.jpeg') center center;
+	background: url('../images/bg-3.jpg') center center;
 	background-size: cover;
 	padding-top: 30px;
 	padding-bottom: 35px;
 }
 
-.main .headline {
+.header .logo-header {
+
+	width:50px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header .headline {
 
 	text-transform: uppercase;
-	color: #FFF;
 	font-size: 46px;
 	text-align: center;
+	text-shadow: 2px 2px 1px #222; 
+	color:white; 
+	margin-top: 80px
 }
-.main .call-to-action {
+.header .call-to-action {
 
 	text-align: center;
 	padding-top: 15px;
 }
 
-.main .subtitulo {
+.header .subtitle {
 
-	color: #FFF;
+	color: white;
+	font-size: 22px;
 	text-align: center;
+	text-shadow: 2px 2px 1px #222; 
 	padding-top: 20px;
 }
 
-.main .navbar-default {
+.header .btn-prueba {
 
-	background-color: rgba(0,0,0,0);
-	border-color: transparent;
-}
-
-.main .navbar-brand img {
-	width: 130px;
+	margin:50px auto;
 }
