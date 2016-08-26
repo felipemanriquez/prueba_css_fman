@@ -4,6 +4,9 @@ body {
 
 }
 
+strong { font-weight: bold; }
+
+
 .header {
 
 	background: url('../images/bg-3.jpg') center center;
@@ -46,4 +49,82 @@ body {
 .header .btn-prueba {
 
 	margin:50px auto;
+}
+
+.intro {
+
+	background: rgb(49, 176, 213);
+
+}
+
+.intro .headline {
+
+	font-size: 40px;
+	text-align: center;
+	color:white; 
+	margin-top: 80px
+
+}
+
+.intro .subtitle {
+
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 80px;
+
+}
+
+.main .hr-headline {
+
+	border-top:dashed #eee; 
+	margin:50px 0 50px 0;
+}
+
+.main .headline {
+
+	text-align: center;
+
+}
+
+.main h3 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.partners .headline {
+
+	font-size: 40px;
+	text-align: center;
+	color:black; 
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.partners .logo-partner {
+
+	max-width:100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.footer {
+
+	background-color: gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer .det {
+	font-size: 12px;
+	color:white;
+}
+
+h4 {
+
+	text-align: center;
+
+
 }
