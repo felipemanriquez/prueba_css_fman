@@ -104,8 +104,8 @@ strong { font-weight: bold; }
 
 .partners .logo-partner {
 
-	max-width:100%;
-    height: auto;
+	max-width:100px;
+    max-height: 100px;
     margin: 0 auto;
 
 }
@@ -126,5 +126,44 @@ h4 {
 
 	text-align: center;
 
+}
 
+.hacker .hackertext {
+	margin-bottom: 50px;
+
+}
+
+
+.hacker img {
+
+	position:relative;
+	left: 100px;
+}
+
+.logo-der {
+
+	float:right;
+}
+
+.logo-cent {
+
+float: right;
+position: relative;
+left: -50%;
+text-align: left;
+}
+
+.logo-cent > .child {
+
+}
+
+.logo-izq {
+
+	float:left;
+}
+
+.logoforv {
+    position: fixed;
+    top: 3%;
+    right: 50%;
 }
